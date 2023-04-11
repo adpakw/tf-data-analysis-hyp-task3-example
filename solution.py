@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import t
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 451783978 # Ваш chat ID, не меняйте название переменной
 
 def solution(control: np.array, test: np.array) -> bool: # Одна или две выборке на входе, заполняется исходя из условия
     if control.size == 0 or test.size == 0:
